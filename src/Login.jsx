@@ -14,8 +14,8 @@ const Login = () => {
                     <div className="max-w-md">
                         <h1 className="text-5xl font-bold">Hello there</h1>
                         <p className="py-6">This is a clone application of spotify developed by Chandra (ch.ghadei@gmail.com). In order to use it, you need a spotify premium profile.</p>
-                        <button className="btn btn-primary">
-                            <a href={auth_url}>Login</a>
+                        <button onClick={auth_url} className="btn btn-primary">
+                            <a href={auth_url} >Login</a>
                         </button>
                     </div>
                 </div>
