@@ -15,7 +15,7 @@ export default (code) => {
             setExpiresIn(res.data.expiresIn)
             window.history.pushState({}, null, "/")
         }).catch((e) => {
-            // window.location = '/'
+            window.location = '/'
             console.log('error is:- ', e)
         })
     }, [code])
@@ -31,7 +31,7 @@ export default (code) => {
                     setExpiresIn(res.data.expiresIn)
                 })
                 .catch((e) => {
-                    // window.location = '/';
+                    window.location = '/';
                     console.log('The error is :- ', e)
                 })
         }, (expiresIn - 60) * 1000);
