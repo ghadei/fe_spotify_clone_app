@@ -15,7 +15,7 @@ const Header = () => {
                                 <img src={process.env.REACT_APP_IMAGELINK} />
                             </div>
                         </label>
-                        <ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+                        <ul tabIndex="0" className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
                             <li><a href="https://www.linkedin.com/in/chandrakanta-ghadei-79b5b11a3">My Linkedin</a></li>
                             <li><a href="https://www.instagram.com/chandrakantaghadei/">My Instagram</a></li>
                         </ul>
